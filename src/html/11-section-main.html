@@ -6,21 +6,21 @@
     <title>섹션과 메인요소</title>
   </head>
   <body>
-    <header class="header">헤더</header>
-    <nav class="navigation">메뉴</nav>
-    <main class="content">
-      <section class="card">
+    <div role="banner" class="header">헤더</div>
+    <div role="navigation" class="navigation">메뉴</div>
+    <div role="main" class="content">
+      <div role="article" class="card">
         <header>섹션 헤더</header>
         <p>...</p>
         <footer>섹션 푸터</footer>
-      </section>
-      <article class="product">
+      </div>
+      <div role="article" class="product">
         <header>아티클 헤더</header>
         <p>...</p>
         <footer>아티클 푸터</footer>
-      </article>
-    </main>
-    <aside class="sidebar">부가 콘텐츠</aside>
-    <footer>바닥글</footer>
+      </div>
+    </div>
+    <div role="complementary" class="sidebar">부가 콘텐츠</div>
+    <div role="contentinfo" class="footer">바닥글</div>
   </body>
 </html>
