@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>비디오, 소스 요소</title>
+  </head>
+  <body>
+    <video controls muted poster="/src/assets/video/poster.jpg">
+      <source
+        src="/src/assets/video/google-developer-stories.mp4"
+        type="video/mp4"
+      />
+      <source
+        src="/src/assets/video/google-developer-stories.ogg"
+        type="video/ogg"
+      />
+      <source
+        src="/src/assets/video/google-developer-stories.mov"
+        type="video/mov"
+      />
+      <source
+        src="/src/assets/video/google-developer-stories.webm"
+        type="video/webm"
+      />
+      <track src="/src/assets/video/stories-en.vtt" kind="captions" lang="en" label="English captions"></track>
+    </video>
+    <hr />
+    <!-- <video src="/src/assets/video/google-developer-stories.mp4"></video> -->
+  </body>
+</html>
