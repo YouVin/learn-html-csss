@@ -1,0 +1,24 @@
+h1 {
+  font-size: 1em;
+}
+body {
+  color: olive;
+}
+.AI {
+  /* background-color: orange !important; important는 css 규칙을 무시 */
+}
+body p {
+  /* background-color: yellow; */
+}
+body h2 + p {
+  /* background-color: blue; */
+}
+body p[class] {
+  /* background-color: lime; */
+}
+#AI {
+  /* background-color: pink; */
+}
+.AI.dog {
+  /* border: 10px dotted black; */
+}
