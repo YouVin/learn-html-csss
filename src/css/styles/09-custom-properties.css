@@ -1,3 +1,9 @@
+@property --text-color {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: orange;
+}
+
 :root {
   /* 색상 팔레트 */
   --white: #fff;
@@ -20,6 +26,15 @@
   --medium: 0.875rem;
   --default: 1rem;
   --large: 1.125rem;
+}
+.container {
+  color: var(--text-color);
+  .parent {
+    --text-color: blue;
+    .child {
+      color: var(--text-color);
+    }
+  }
 }
 
 .text-card1 {
