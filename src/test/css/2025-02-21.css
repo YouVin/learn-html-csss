@@ -1,0 +1,14 @@
+.likelion_links {
+  background-color: lightcyan;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.likelion_links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+.likelion_links a:first-child {
+  background-color: greenyellow;
+  padding: 5px;
+}

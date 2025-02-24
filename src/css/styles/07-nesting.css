@@ -1,12 +1,15 @@
 .likelion {
+  /* 일반적인 방식 */
   .likelion__list {
     list-style-type: none;
 
     &:hover {
       background-color: yellow;
     }
+    /* 여기서 더 중첩할 경우 코드 보기가 어려워짐. */
   }
 
+  /* 선호하는 스타일 방식 */
   .likelion__item {
     color: green;
   }
