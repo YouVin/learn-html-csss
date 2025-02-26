@@ -1,0 +1,30 @@
+@import url(/src/common/theme.css);
+/* CSS 의 display 속성으로 영역 안보이게 */
+.man-friend-son {
+  display: none;
+}
+.card {
+  background-color: var(--pastel-pink);
+  border: solid 1px green;
+
+  .thumbnail {
+    background: var(--pastel-yellow);
+    /* overflow: hidden; */
+  }
+
+  img {
+    float: left;
+    width: 100px;
+    vertical-align: middle;
+    /* vertical-align: top;
+    display: block; */
+  }
+  .subject {
+    background-color: var(--pastel-blue);
+  }
+  .content {
+    display: block;
+    clear: both;
+    background-color: var(--pastel-orange);
+  }
+}
