@@ -10,18 +10,6 @@ body {
 .brand {
   .logo {
     display: block;
-
-    /* svg {
-      transition: rotate 0.4s;
-    } */
-
-    /* &:focus {
-      outline: none;
-
-      svg {
-        rotate: 1turn;
-      }
-    } */
   }
 }
 
