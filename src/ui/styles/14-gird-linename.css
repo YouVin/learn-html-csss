@@ -38,6 +38,7 @@
       minmax(5.3125rem, 1fr)
     )
     [content-end] minmax(1rem, 1fr) [full-end];
+  grid-template-rows: repeat(7, 1fr);
   grid-auto-flow: dense;
 
   /* min-height: 100vh;
@@ -47,7 +48,7 @@
   grid-template-rows: 1fr 1fr 8fr 1fr 1fr; */
 
   .header {
-    grid-column: full-start / full-end;
+    grid-column: content;
   }
   .navigation {
     grid-column: full;
@@ -55,7 +56,14 @@
     grid-template-columns: subgrid;
 
     .menu {
+      background: var(--pastel-pink);
       grid-column: content;
+      display: grid;
+      grid-template-columns: subgrid;
+
+      li {
+        grid-column: span 3;
+      }
     }
   }
   .main {
